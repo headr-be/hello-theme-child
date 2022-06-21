@@ -15,3 +15,16 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 /*
     Add your custom styles here
 */
+
+
+/****************/
+/*  TYPOGRAPHY  */
+/****************/
+
+.elementor-widget-text-editor .elementor-widget-container p:last-child {
+	margin-bottom: 0;
+}
+.elementor-widget-text-editor .elementor-widget-container ol,
+.elementor-widget-text-editor .elementor-widget-container ul {
+	margin-bottom: 1rem;
+}
