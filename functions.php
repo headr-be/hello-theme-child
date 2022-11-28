@@ -34,7 +34,7 @@ add_action( 'wp_enqueue_scripts', 'hello_elementor_child_enqueue_scripts', 20 );
 
 
 // Display PHP errors for admins
-if (current_user_can('administrator')) {
+if ( current_user_can('administrator') && !wp_doing_ajax() ) {
 	ini_set('display_errors', 1); 
 }
 
