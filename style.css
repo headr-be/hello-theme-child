@@ -26,3 +26,11 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .elementor-widget-text-editor .elementor-widget-container ul {
 	margin-bottom: 1rem;
 }
+.elementor-widget-image a {
+	width: 100%;
+}
+
+.elementor-heading-title,
+.balance {
+	text-wrap: balance;
+}
