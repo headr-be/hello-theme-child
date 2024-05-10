@@ -29,6 +29,13 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .elementor-widget-image a {
 	width: 100%;
 }
+.elementor-widget-icon a {
+	display: block;
+}
+
+a {
+    color: currentColor;
+}
 
 .elementor-heading-title,
 .balance {
